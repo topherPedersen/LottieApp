@@ -8,6 +8,8 @@ import {
   StatusBar,
 } from 'react-native';
 
+import LottieView from 'lottie-react-native';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -15,9 +17,7 @@ class App extends React.Component {
 
   render() {
     return(
-      <View>
-        <Text>Hello, Lottie...</Text>
-      </View>
+      <LottieView source={require('./animations/checkmark.json')} autoPlay loop />
     );
   }
 }
