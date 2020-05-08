@@ -17,7 +17,7 @@ class App extends React.Component {
 
   render() {
     return(
-      <LottieView source={require('./animations/checkmark.json')} autoPlay loop />
+      <LottieView source={require('./animations/sync.json')} autoPlay loop />
     );
   }
 }
